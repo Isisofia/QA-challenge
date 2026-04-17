@@ -8,3 +8,6 @@ npm install
 
 ## Run tests
 npx playwright test
+
+## Run tests in headed mode
+npx playwright test --headed
