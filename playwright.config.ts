@@ -33,6 +33,9 @@ export default defineConfig({
     /* The app exposes stable data-test attributes for testing; prefer getByTestId over text/role locators. */
     testIdAttribute: 'data-test',
 
+    /* The app exposes stable data-test attributes for testing; prefer getByTestId over text/role locators. */
+    testIdAttribute: 'data-test',
+
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
